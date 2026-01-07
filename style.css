@@ -1,0 +1,31 @@
+
+.logo a img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.logo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin-right: 150px;    
+    position: relative;
+    top: 2px;
+    transition: 1s ease;
+}
+
+.top-img{
+    position: absolute;
+    left: 0;
+    top: 40;
+    height: 20px;
+    opacity: 0;
+    transition: 2s ease;
+}
+
+.top-img:hover{
+    opacity: 1;
+}
